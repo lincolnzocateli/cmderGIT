@@ -1,10 +1,10 @@
-# Esse procedimento deve ser executado para configurar o prompt do cmder.exe com informa;óes do git
+# Esse procedimento deve ser executado para configurar o prompt do cmder.exe com informa;Ã³es do git
 # 1 - Instale o git na maquina
 # 2 - Inclua o git no path
-# 3 - Instale o PowerShell 5 ou superior
+# 3 - Instale o PowerShell 5 ou superior, baixe aqui: https://www.microsoft.com/en-us/download/confirmation.aspx?id=54616 
 # 4 - Instale o posh-git: https://github.com/dahlbyk/posh-git#installation
 
-Write-Host "Vers�o do PowerShell atual:"
+Write-Host "Versão do PowerShell atual, se for inferior a 5, baixe aqui: https://www.microsoft.com/en-us/download/confirmation.aspx?id=54616 e atualize"
 $PSVersionTable.PSVersion
 
 pause
